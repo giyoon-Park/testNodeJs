@@ -8,6 +8,7 @@ var app = express();
 //라우팅 모듈 선언
 var indexRouter = require('./routes/index');
 var clubRouter = require('./routes/club/club');
+var apiRouter = require('./routes/APIparser/api_call');
 
 //mybatis-mapper 추가
 var mybatisMapper = require('mybatis-mapper');
